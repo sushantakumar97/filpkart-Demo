@@ -1,0 +1,85 @@
+.skb{
+    margin-top: 20px;
+    margin-left:-80px;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration:underline;
+    text-decoration-color: beige;
+}
+.submit{
+    background-color: white;
+}
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:10px; top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+        .one {
+            border-style: solid;
+            border-color: rgb(245, 232, 232);
+           height:2100px;
+          }
+          .two {
+            border-style: solid;
+            border-color: rgb(245, 232, 232);
+           height:320px;
+           background-color:rgb(39, 23, 54);
+          }
+          .container2{
+              color: antiquewhite;
+              margin-left: 140px;
+              margin-top: -140px;
+          }
+          .container3{
+            color: antiquewhite;
+            margin-left: 180px;
+            margin-top: -110px;
+        }
+        .container4{
+            color: antiquewhite;
+            margin-left: 180px;
+            margin-top: -130px;
+        }
+        .vl{
+            border-left: 2px solid rgb(197, 209, 197);
+            height: 150px;
+            margin-left: 120px;
+            margin-top: -50px;
+          }
+          .container5{
+            color: antiquewhite;
+            margin-left: 170px;
+            margin-top: -170px;
+        }
+        .container6{
+            color: antiquewhite;
+            margin-left:440px;
+            margin-top: -160px;
+        }
+        p.four {
+            border-style: dotted;
+            border-width: thick;
+          }
+    .container7{
+        margin-left: -500px;
+    }
+    .container8{
+        margin-left:-350px;
+        margin-top: -16px;
+    }
+    .container9{
+        margin-left:-210px;
+        margin-top: -16px;
+    }
+    .container10{
+        margin-left:-110px;
+        margin-top: -16px;
+    }
+    .container11{
+        
+        margin-top: -16px;
+    }

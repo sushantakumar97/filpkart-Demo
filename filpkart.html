@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Demo Project</title>
+      <link rel="stylesheet" type="text/css" href="filpkart.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"> </script>   
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light navbar- fixed-top" style="background-color:rgb(94, 94, 247);height:55px;">
+         <img width="80" src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_4ee2f9.png"style="margin-left:200px;margin-top:-20px">
+         <a class="skb" href="/plus">
+            <span style="color:white">Explore</span><!-- --> <span style="color: yellow;">Plus</span>
+            <img width="10" src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_b13a8b.png">
+         </a>
+         <input class="form-control col-sm-4"placeholder="search for Products,Brands and More" style="color:#233659;background-color:white;margin-left: 30px;border-radius: 2px;font-size: 15px;">
+         <i class="fa fa-search" style="margin-left:-2px;position:fixed;margin-left:670px;color:royalblue;height: 20px;"></i>    
+         <a href="tel:18669192167" class="nav-link text-white"style="margin-left:50px"><b>Login & Singup</b>  </a>
+         <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="color:white">
+            <span style="color:white"><b>more</b></span> 
+            </button>
+            <div class="dropdown-menu">
+               <div class="dropdown-divider"></div>
+               <a class="fa fa-bell-o" style="color:blue" href="#" aria-hidden="true"><span style="color:black;margin-left: 4px;">Notification Prefernce</span></a></i>
+               <div class="dropdown-divider" ></div>
+               <a class="fa fa-gift"  href="#"><span style="color:black;margin-left: 4px;">Sell on flipcard</span></a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">24x7 customer care</a>
+               <div class="dropdown-divider"></div>
+               <a class="fa fa-bolt" href="#"><span style="color:black;margin-left: 4px;">Advertise</span></a>
+               <div class="dropdown-divider"></div>
+               <a class="fa fa-download" href="#"><span style="color:black;margin-left: 4px;">Download APP</span></a>
+            </div>
+         </div>
+         </div>
+         <a class="fa fa-shopping-cart" style="color:white;margin-left: 40px;" href="#"><span style="color: whitesmoke;margin-left: 7px;"><b>Cart</b></span></a>
+         </path></svg>
+      </nav>
+      <br><br>
+      <div>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     Electronics
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Mobile</a>
+                        <a class="dropdown-item" href="#">Laptop</a>
+                        <a class="dropdown-item" href="#">Powerbank</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     TVs & Appliances
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Washing Machine</a>
+                        <a class="dropdown-item" href="#">AC</a>
+                        <a class="dropdown-item" href="#">TV</a>
+                        <a class="dropdown-item" href="#">sun glass</a>
+                        <a class="dropdown-item" href="#">Tshirt</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     Men
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">winter wear</a>
+                        <a class="dropdown-item" href="#">sun glass</a>
+                        <a class="dropdown-item" href="#">Tshirt</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">pencil</a>
+                        <a class="dropdown-item" href="#">books</a>
+                        <a class="dropdown-item" href="#">box</a>
+                        <a class="dropdown-item" href="#">news paper</a>
+                        <a class="dropdown-item" href="#">Books stand</a>
+                        <a class="dropdown-item" href="#">map,zametry box,compas,protractor</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     Women
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">night dress</a>
+                        <a class="dropdown-item" href="#">jeans</a>
+                        <a class="dropdown-item" href="#">Top</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">Sofa</a>
+                        <a class="dropdown-item" href="#">sofa cover</a>
+                        <a class="dropdown-item" href="#">Table,table cover,table cloth</a>
+                        <a class="dropdown-item" href="#">Cricket Bat</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">news paper</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     Baby & Kids
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">hoggies</a>
+                        <a class="dropdown-item" href="#">momy poko pant</a>
+                        <a class="dropdown-item" href="#">nipple</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">Sofa</a>
+                        <a class="dropdown-item" href="#">sofa cover</a>
+                        <a class="dropdown-item" href="#">Table,table cover,table cloth</a>
+                        <a class="dropdown-item" href="#">Cricket Bat</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">pencil</a>
+                        <a class="dropdown-item" href="#">books</a>
+                        <a class="dropdown-item" href="#">box</a>
+                        <a class="dropdown-item" href="#">news paper</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     Home & Furniture
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">table light</a>
+                        <a class="dropdown-item" href="#">books stand</a>
+                        <a class="dropdown-item" href="#">dining Table</a>
+                        <a class="dropdown-item" href="#">Sofa</a>
+                        <a class="dropdown-item" href="#">sofa cover</a>
+                        <a class="dropdown-item" href="#">Table,table cover,table cloth</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">pencil</a>
+                        <a class="dropdown-item" href="#">books</a>
+                        <a class="dropdown-item" href="#">box</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">pencil</a>
+                        <a class="dropdown-item" href="#">books</a>
+                        <a class="dropdown-item" href="#">box</a>
+                        <a class="dropdown-item" href="#">news paper</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown"style="list-style:none;">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" style="color:black;margin-left: 20px;" >
+                     Sports Books & More
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Cricket Bat</a>
+                        <a class="dropdown-item" href="#">Volly Ball</a>
+                        <a class="dropdown-item" href="#">pen</a>
+                        <a class="dropdown-item" href="#">pencil</a>
+                        <a class="dropdown-item" href="#">books</a>
+                        <a class="dropdown-item" href="#">box</a>
+                        <a class="dropdown-item" href="#">news paper</a>
+                        <a class="dropdown-item" href="#">Books stand</a>
+                        <a class="dropdown-item" href="#">map,zametry box,compas,protractor</a>
+                        <a class="dropdown-item" href="#">table light</a>
+                        <a class="dropdown-item" href="#">books stand</a>
+                        <a class="dropdown-item" href="#">dining Table</a>
+                        <a class="dropdown-item" href="#">Sofa</a>
+                        <a class="dropdown-item" href="#">sofa cover</a>
+                     </div>
+                  </li>
+               </ul>
+               <ul class="navbar-nav">
+                  <a style="color:black;margin-left: 20px;" >
+                  Grocery
+                  </a>
+               </ul>
+               <ul class="navbar-nav">
+                  <a  style="color:black;margin-left: 20px;" >
+                  Offerzone
+                  </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      </div>  
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active" style="height:350px;">
+               <img src="https://i.imgur.com/lXoPo1f.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item"style="height:350px;">
+               <img src="https://m.media-amazon.com/images/S/aplus-media/sota/8f3d2c20-81d0-4754-bb49-f4302f7512cf._SR970,300_.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item"style="height:350px;">
+               <img src="https://res-5.cloudinary.com/linkisin/image/asset/christmas-zingoy-og-753dd0df1855f1529646edc0a53bddf3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item"style="height:350px;">
+               <img src="https://images.yourstory.com/cs/wordpress/2015/06/yourstory_flipkart_seller.jpg?fm=png&auto=format" class="d-block w-100" alt="...">
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"> <button> Previous </button></span> 
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <br>
+      <div class="deal">
+         <hr>
+         <p><i class="fal fa-clock"></i><span style="font-size:20px;"><b>Deals of the Days</b></span>
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <button type="button"style="background-color:rgb(94, 94, 247);margin-left:700px;margin-top:-100px;border-radius:4px;color:white">VIEW  ALL</button>
+         </p>
+         <p id="demo" style="margin-left:190px;margin-top:-44px"><b>left</b></p>
+         <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+            
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+            
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              // Display the result in the element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+            
+              // If the count down is finished, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+         </script>
+         <hr>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="2" id="MultiCarousel"  data-interval="1000">
+               <div class="MultiCarousel-inner">
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/71QHGTKiwAL._UX342_.jpg"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Casio, Titan & more</b></p>
+                        <p style="color: green;font-size:13px;">Upto%Off <a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size:12px">+Extra5%Off</span></a></p>
+                        <p style="font-size: 13px;">Watches Veriety</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/200/200/joonafk0/shoe/z/q/y/ogc-0110105-8-woodland-camel-original-imafbfzd6paajqbx.jpeg?q=70"style="height:199px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/352/352/jl8bzbk0/bean-bag-cover/d/g/v/large-bean-bag-cover-large-black-red-tradesk-original-imaf8ejzbyhbew7r.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Bean Bag Covers & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">199</span></a></p>
+                        <p style="font-size: 13px;">space saving Furniture</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/81XEPquUw3L._SX466_.jpg"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://www.91-img.com/pictures/nokia-220-dual-sim-mobile-phone-large-1.jpg"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Nokia Mobile & more</b></p>
+                        <p style="color: green;">Flat Rs<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">100 off</span></a></p>
+                        <p style="font-size: 13px;">Great deals on Feature</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://img6.craftsvilla.com/image/upload/w_300,h_450/C/V/CV-36556-MCRAF15182094440-1568819774-Craftsvilla_1.jpg"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Top, Dress & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">300</span></a></p>
+                        <p style="font-size: 13px;">Tokyo Talkies,Van House</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://ae01.alicdn.com/kf/HTB1OnzZXROD3KVjSZFFq6An9pXaj/Tourya-B7-Wireless-Headphones-Bluetooth-Headset-Earphone-Headphone-Earbuds-Earphones-With-Microphone-For-PC-mobile-phone.jpg"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Headphones & Speakers</b></p>
+                        <p style="color: green;font-size: 12px;">Upto 60%<a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size: 12px">+Extra 10%off</span></a></p>
+                        <p style="font-size: 13px;">JBL,Sony & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Lee,Levies,spark</b></p>
+                        <p style="color: green;">Min 60%<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">off</span></a></p>
+                        <p style="font-size: 13px;">T-shirts,Shirts,Jeans</p>
+                     </div>
+                  </div>
+               </div>
+               <button class="btn btn-primary leftLst"><</button>
+               <button class="btn btn-primary rightLst">></button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <br/><br/><br/>
+               <hr/>
+            </div>
+         </div>
+      </div>
+      <script>
+         $(document).ready(function () {
+         var itemsMainDiv = ('.MultiCarousel');
+         var itemsDiv = ('.MultiCarousel-inner');
+         var itemWidth = "";
+         
+         $('.leftLst, .rightLst').click(function () {
+             var condition = $(this).hasClass("leftLst");
+             if (condition)
+                 click(0, this);
+             else
+                 click(1, this)
+         });
+         
+         ResCarouselSize();
+         
+         
+         
+         
+         $(window).resize(function () {
+             ResCarouselSize();
+         });
+         
+         //this function define the size of the items
+         function ResCarouselSize() {
+             var incno = 0;
+             var dataItems = ("data-items");
+             var itemClass = ('.item');
+             var id = 0;
+             var btnParentSb = '';
+             var itemsSplit = '';
+             var sampwidth = $(itemsMainDiv).width();
+             var bodyWidth = $('body').width();
+             $(itemsDiv).each(function () {
+                 id = id + 1;
+                 var itemNumbers = $(this).find(itemClass).length;
+                 btnParentSb = $(this).parent().attr(dataItems);
+                 itemsSplit = btnParentSb.split(',');
+                 $(this).parent().attr("id", "MultiCarousel" + id);
+         
+         
+                 if (bodyWidth >= 1200) {
+                     incno = itemsSplit[3];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else if (bodyWidth >= 992) {
+                     incno = itemsSplit[2];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else if (bodyWidth >= 768) {
+                     incno = itemsSplit[1];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else {
+                     incno = itemsSplit[0];
+                     itemWidth = sampwidth / incno;
+                 }
+                 $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                 $(this).find(itemClass).each(function () {
+                     $(this).outerWidth(itemWidth);
+                 });
+         
+                 $(".leftLst").addClass("over");
+                 $(".rightLst").removeClass("over");
+         
+             });
+         }
+         
+         
+         //this function used to move the items
+         function ResCarousel(e, el, s) {
+             var leftBtn = ('.leftLst');
+             var rightBtn = ('.rightLst');
+             var translateXval = '';
+             var divStyle = $(el + ' ' + itemsDiv).css('transform');
+             var values = divStyle.match(/-?[\d\.]+/g);
+             var xds = Math.abs(values[4]);
+             if (e == 0) {
+                 translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                 $(el + ' ' + rightBtn).removeClass("over");
+         
+                 if (translateXval <= itemWidth / 2) {
+                     translateXval = 0;
+                     $(el + ' ' + leftBtn).addClass("over");
+                 }
+             }
+             else if (e == 1) {
+                 var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                 translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                 $(el + ' ' + leftBtn).removeClass("over");
+         
+                 if (translateXval >= itemsCondition - itemWidth / 2) {
+                     translateXval = itemsCondition;
+                     $(el + ' ' + rightBtn).addClass("over");
+                 }
+             }
+             $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+         }
+         
+         //It is used to get some elements from btn
+         function click(ell, ee) {
+             var Parent = "#" + $(ee).parent().attr("id");
+             var slide = $(Parent).attr("data-slide");
+             ResCarousel(ell, Parent, slide);
+         }
+         
+         });
+      </script>
+      <div class="container-fluid">
+         <div class="row"style="justify-content: space-around;">
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://images.indianexpress.com/2019/06/mi-band-3-vs-mi-band-4.jpg" alt="Mister Marbles head tilt"></div>
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://www.liteclues.com/wp-content/uploads/thumbs_dir/banner-9-1w0a6w1u3cx8akj13sntq6w3sbtshlkxa42axukcfh84.jpg" alt="Mister Marbles head tilt"></div>
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://www.mumbrella.asia/content/uploads/2018/08/vivo.png" alt="Mister Marbles head tilt"></div>
+         </div>
+      </div>
+      </div>
+      <hr>
+      <p><span style="margin-left: 30px;font-size: 20px;"><b>Set Of Your Home</b></span>
+         <button type="button"style="background-color:rgb(94, 94, 247);margin-left:950px;margin-top:-100px;border-radius:4px;color:white;height:35px;">VIEW  ALL</button>
+      <hr>
+      <div class="container">
+         <div class="row">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="2" id="MultiCarousel"  data-interval="1000">
+               <div class="MultiCarousel-inner">
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jvgzl3k0/carpet-rug/w/d/s/bp-r-crpt-48-home-best-original-imaemeggmrq4zjfx.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Casio, Titan & more</b></p>
+                        <p style="color: green;font-size:13px;">Upto%Off <a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size:12px">+Extra5%Off</span></a></p>
+                        <p style="font-size: 13px;">Watches Veriety</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k3rmm4w0/outdoor-lamp/8/z/y/200watt-suprimo-original-imafmts7shykgnxa.jpeg?q=70"style="height:199px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jhz5vgw0/stool/e/z/c/tree01-quick-shel-original-imaf5zuqagfz3b5s.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Bean Bag Covers & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">199</span></a></p>
+                        <p style="font-size: 13px;">space saving Furniture</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jucz98w0/slipcover/y/z/f/sofa-004-dushanj-furnishings-original-imafe282fpbamctb.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k1118cw0/painting/y/f/z/safj91-saf-original-imafkz8yqgs3dejg.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Nokia Mobile & more</b></p>
+                        <p style="color: green;">Flat Rs<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">100 off</span></a></p>
+                        <p style="font-size: 13px;">Great deals on Feature</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jwcf9u80/appliance-cover/z/h/r/a571-47-loomantha-original-imafgsyaryg9j9hr.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Top, Dress & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">300</span></a></p>
+                        <p style="font-size: 13px;">Tokyo Talkies,Van House</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/iron/u/w/8/bajaj-dx6-original-imaefuzzjgux5nqz.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Headphones & Speakers</b></p>
+                        <p style="color: green;font-size: 12px;">Upto 60%<a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size: 12px">+Extra 10%off</span></a></p>
+                        <p style="font-size: 13px;">JBL,Sony & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/closet-drawer-divider/h/h/2/fusion-5a-la-corsa-original-imaehaahcetqhhbp.jpeg?q=70"style="height:190px;">
+                        <p style="font-size: 12px;color: black;"><b>Lee,Levies,spark</b></p>
+                        <p style="color: green;">Min 60%<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">off</span></a></p>
+                        <p style="font-size: 13px;">T-shirts,Shirts,Jeans</p>
+                     </div>
+                  </div>
+               </div>
+               <button class="btn btn-primary leftLst"><</button>
+               <button class="btn btn-primary rightLst">></button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <br/><br/><br/>
+               <hr/>
+            </div>
+         </div>
+      </div>
+      <script>
+         $(document).ready(function () {
+         var itemsMainDiv = ('.MultiCarousel');
+         var itemsDiv = ('.MultiCarousel-inner');
+         var itemWidth = "";
+         
+         $('.leftLst, .rightLst').click(function () {
+             var condition = $(this).hasClass("leftLst");
+             if (condition)
+                 click(0, this);
+             else
+                 click(1, this)
+         });
+         
+         ResCarouselSize();
+         
+         
+         
+         
+         $(window).resize(function () {
+             ResCarouselSize();
+         });
+         
+         //this function define the size of the items
+         function ResCarouselSize() {
+             var incno = 0;
+             var dataItems = ("data-items");
+             var itemClass = ('.item');
+             var id = 0;
+             var btnParentSb = '';
+             var itemsSplit = '';
+             var sampwidth = $(itemsMainDiv).width();
+             var bodyWidth = $('body').width();
+             $(itemsDiv).each(function () {
+                 id = id + 1;
+                 var itemNumbers = $(this).find(itemClass).length;
+                 btnParentSb = $(this).parent().attr(dataItems);
+                 itemsSplit = btnParentSb.split(',');
+                 $(this).parent().attr("id", "MultiCarousel" + id);
+         
+         
+                 if (bodyWidth >= 1200) {
+                     incno = itemsSplit[3];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else if (bodyWidth >= 992) {
+                     incno = itemsSplit[2];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else if (bodyWidth >= 768) {
+                     incno = itemsSplit[1];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else {
+                     incno = itemsSplit[0];
+                     itemWidth = sampwidth / incno;
+                 }
+                 $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                 $(this).find(itemClass).each(function () {
+                     $(this).outerWidth(itemWidth);
+                 });
+         
+                 $(".leftLst").addClass("over");
+                 $(".rightLst").removeClass("over");
+         
+             });
+         }
+         
+         
+         //this function used to move the items
+         function ResCarousel(e, el, s) {
+             var leftBtn = ('.leftLst');
+             var rightBtn = ('.rightLst');
+             var translateXval = '';
+             var divStyle = $(el + ' ' + itemsDiv).css('transform');
+             var values = divStyle.match(/-?[\d\.]+/g);
+             var xds = Math.abs(values[4]);
+             if (e == 0) {
+                 translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                 $(el + ' ' + rightBtn).removeClass("over");
+         
+                 if (translateXval <= itemWidth / 2) {
+                     translateXval = 0;
+                     $(el + ' ' + leftBtn).addClass("over");
+                 }
+             }
+             else if (e == 1) {
+                 var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                 translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                 $(el + ' ' + leftBtn).removeClass("over");
+         
+                 if (translateXval >= itemsCondition - itemWidth / 2) {
+                     translateXval = itemsCondition;
+                     $(el + ' ' + rightBtn).addClass("over");
+                 }
+             }
+             $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+         }
+         
+         //It is used to get some elements from btn
+         function click(ell, ee) {
+             var Parent = "#" + $(ee).parent().attr("id");
+             var slide = $(Parent).attr("data-slide");
+             ResCarousel(ell, Parent, slide);
+         }
+         
+         });
+      </script>
+      <div class="container-fluid">
+         <div class="row"style="justify-content: space-around;">
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://www.telstra.com.au/content/dam/tcom/personal/mobile-phones/product-catalogue/samsung-galaxy-a90/a90-launch-mobiletakeover-768x360px.jpg" alt="Mister Marbles head tilt"></div>
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_960_720.jpg" alt="Mister Marbles head tilt"></div>
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://cnet1.cbsistatic.com/img/tfO6q37r8-tTCyXrQwB4GLUxD_8=/868x488/2019/03/26/e1a038a8-67e3-4955-a305-682956f26cb0/009-jbl-650bt-active-noise-cancelling-headphones.jpg" alt="Mister Marbles head tilt"></div>
+         </div>
+      </div>
+      </div>
+      <hr>
+      <p><span style="margin-left: 30px;font-size: 20px;"><b>Home Entertainment</b></span>
+         <button style="background-color:rgb(94, 94, 247);margin-left:950px;height: 35px;border-radius: 4px;;">View All</span></button>
+      <hr>
+      <div class="container">
+         <div class="row">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="2" id="MultiCarousel"  data-interval="1000">
+               <div class="MultiCarousel-inner">
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jzk5xu80/speaker/mobile-tablet-speaker/z/k/j/jbl-jbltunerfmblkin-original-imaffy9hhzdva8df.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Casio, Titan & more</b></p>
+                        <p style="color: green;font-size:13px;">Upto%Off <a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size:12px">+Extra5%Off</span></a></p>
+                        <p style="font-size: 13px;">Watches Veriety</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/je5zlow0/speaker/home-audio-speaker/u/p/m/philips-in-spt6660-94-original-imaf2wy4grfamf5w.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jx6fiq80/speaker/home-audio-speaker/g/r/c/impex-ts-25-b-original-imafhkw8yjxcwygr.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Bean Bag Covers & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">199</span></a></p>
+                        <p style="font-size: 13px;">space saving Furniture</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jyxaw7k0/speaker/mobile-tablet-speaker/k/t/2/sony-srs-xb12-original-imafg5cwaqnapc6k.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jmux18w0/speaker/laptop-desktop-speaker/u/h/7/intex-it-881s-original-imaf9z8q6zr9azhu.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Nokia Mobile & more</b></p>
+                        <p style="color: green;">Flat Rs<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">100 off</span></a></p>
+                        <p style="font-size: 13px;">Great deals on Feature</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k0vbgy80pkrrdj/speaker/mobile-tablet-speaker/7/m/d/boat-stone-1000-original-imafg96ydhzhj4rp.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Top, Dress & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">300</span></a></p>
+                        <p style="font-size: 13px;">Tokyo Talkies,Van House</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jfu03gw0/speaker/home-audio-speaker/9/f/b/sony-mhc-gt4d-original-imaf47hdhvfuxazz.jpeg?q=70"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Headphones & Speakers</b></p>
+                        <p style="color: green;font-size: 12px;">Upto 60%<a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size: 12px">+Extra 10%off</span></a></p>
+                        <p style="font-size: 13px;">JBL,Sony & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://www.sony.co.in/image/63d10eb7ddbda961083aca080a43ac81?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"style="height:150px;">
+                        <p style="font-size: 12px;color: black;"><b>Lee,Levies,spark</b></p>
+                        <p style="color: green;">Min 60%<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">off</span></a></p>
+                        <p style="font-size: 13px;">T-shirts,Shirts,Jeans</p>
+                     </div>
+                  </div>
+               </div>
+               <button class="btn btn-primary leftLst"><</button>
+               <button class="btn btn-primary rightLst">></button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <br/><br/><br/>
+               <hr/>
+            </div>
+         </div>
+      </div>
+      <script>
+         $(document).ready(function () {
+         var itemsMainDiv = ('.MultiCarousel');
+         var itemsDiv = ('.MultiCarousel-inner');
+         var itemWidth = "";
+         
+         $('.leftLst, .rightLst').click(function () {
+             var condition = $(this).hasClass("leftLst");
+             if (condition)
+                 click(0, this);
+             else
+                 click(1, this)
+         });
+         
+         ResCarouselSize();
+         
+         
+         
+         
+         $(window).resize(function () {
+             ResCarouselSize();
+         });
+         
+         //this function define the size of the items
+         function ResCarouselSize() {
+             var incno = 0;
+             var dataItems = ("data-items");
+             var itemClass = ('.item');
+             var id = 0;
+             var btnParentSb = '';
+             var itemsSplit = '';
+             var sampwidth = $(itemsMainDiv).width();
+             var bodyWidth = $('body').width();
+             $(itemsDiv).each(function () {
+                 id = id + 1;
+                 var itemNumbers = $(this).find(itemClass).length;
+                 btnParentSb = $(this).parent().attr(dataItems);
+                 itemsSplit = btnParentSb.split(',');
+                 $(this).parent().attr("id", "MultiCarousel" + id);
+         
+         
+                 if (bodyWidth >= 1200) {
+                     incno = itemsSplit[3];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else if (bodyWidth >= 992) {
+                     incno = itemsSplit[2];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else if (bodyWidth >= 768) {
+                     incno = itemsSplit[1];
+                     itemWidth = sampwidth / incno;
+                 }
+                 else {
+                     incno = itemsSplit[0];
+                     itemWidth = sampwidth / incno;
+                 }
+                 $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                 $(this).find(itemClass).each(function () {
+                     $(this).outerWidth(itemWidth);
+                 });
+         
+                 $(".leftLst").addClass("over");
+                 $(".rightLst").removeClass("over");
+         
+             });
+         }
+         
+         
+         //this function used to move the items
+         function ResCarousel(e, el, s) {
+             var leftBtn = ('.leftLst');
+             var rightBtn = ('.rightLst');
+             var translateXval = '';
+             var divStyle = $(el + ' ' + itemsDiv).css('transform');
+             var values = divStyle.match(/-?[\d\.]+/g);
+             var xds = Math.abs(values[4]);
+             if (e == 0) {
+                 translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                 $(el + ' ' + rightBtn).removeClass("over");
+         
+                 if (translateXval <= itemWidth / 2) {
+                     translateXval = 0;
+                     $(el + ' ' + leftBtn).addClass("over");
+                 }
+             }
+             else if (e == 1) {
+                 var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                 translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                 $(el + ' ' + leftBtn).removeClass("over");
+         
+                 if (translateXval >= itemsCondition - itemWidth / 2) {
+                     translateXval = itemsCondition;
+                     $(el + ' ' + rightBtn).addClass("over");
+                 }
+             }
+             $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+         }
+         
+         //It is used to get some elements from btn
+         function click(ell, ee) {
+             var Parent = "#" + $(ee).parent().attr("id");
+             var slide = $(Parent).attr("data-slide");
+             ResCarousel(ell, Parent, slide);
+         }
+         
+         });
+      </script>
+      </div>
+      <div class="container-fluid">
+         <div class="row"style="justify-content: space-around;">
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://cnet2.cbsistatic.com/img/rVaYkr_u5Wjjl8OrdW7TsH5ScXw=/756x425/2018/10/09/00be1d5a-9afa-49bf-8198-4d394f28caa2/mycharge-portable-wireless-charger-power-bank.png" alt="Mister Marbles head tilt"></div>
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://bestmediainfo.com/timthumb.php?src=/wp-content/uploads/2019/10/Godrej-FF-Ref-TVC_4.jpg&w=620&h=350&zc=1&q=100" alt="Mister Marbles head tilt"></div>
+            <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://media.very.co.uk/v/very/MXJJW_SQ6_0000000088_NO_COLOR_DVvL?" alt="Mister Marbles head tilt"></div>
+         </div>
+      </div>
+      <hr>
+      <p><span style="margin-left: 30px;font-size: 20px;"><b>Best Battery Phones</b></span>
+         <button style="background-color:rgb(94, 94, 247);margin-left:950px;height: 35px;border-radius: 4px;;">View All</span></button>
+      <hr>
+      <div class="container">
+         <div class="row">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="2" id="MultiCarousel"  data-interval="1000">
+               <div class="MultiCarousel-inner">
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/200/200/jzd0qkw0/mobile/h/3/c/realme-5-rmx1911-original-imafje8bfnzya5ty.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Casio, Titan & more</b></p>
+                        <p style="color: green;font-size:13px;">Upto%Off <a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size:12px">+Extra5%Off</span></a></p>
+                        <p style="font-size: 13px;">Watches Veriety</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k0y6cnk0/mobile/p/4/x/mi-redmi-8a-mzb8459in-original-imafkmg2mza82yyu.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jzd0qkw0/mobile/h/3/c/realme-5-rmx1911-original-imafje8bfnzya5ty.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Bean Bag Covers & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">199</span></a></p>
+                        <p style="font-size: 13px;">space saving Furniture</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/k0463rk0/mobile/e/3/p/infinix-hot-8-x650c-original-imafjz7tmamr9rje.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jw5a2kw0/mobile/h/n/h/black-shark-2-skw-h0-original-imafgw4hdemjsas2.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Nokia Mobile & more</b></p>
+                        <p style="color: green;">Flat Rs<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">100 off</span></a></p>
+                        <p style="font-size: 13px;">Great deals on Feature</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/200/200/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Top, Dress & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">300</span></a></p>
+                        <p style="font-size: 13px;">Tokyo Talkies,Van House</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jvcp9jk0/mobile/a/u/x/oppo-f11-pro-cph1969-original-imafec8h3uqk3fqw.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Headphones & Speakers</b></p>
+                        <p style="color: green;font-size: 12px;">Upto 60%<a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size: 12px">+Extra 10%off</span></a></p>
+                        <p style="font-size: 13px;">JBL,Sony & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jx3kn0w0/mobile/9/j/e/vivo-z1-pro-1951-pd1911f-ex-original-imafhmyaytjannkv.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Lee,Levies,spark</b></p>
+                        <p style="color: green;">Min 60%<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">off</span></a></p>
+                        <p style="font-size: 13px;">T-shirts,Shirts,Jeans</p>
+                     </div>
+                  </div>
+               </div>
+               <button class="btn btn-primary leftLst"><</button>
+               <button class="btn btn-primary rightLst">></button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 text-center">
+               <br/><br/><br/>
+               <hr/>
+            </div>
+         </div>
+      </div>
+      <hr style="margin-top:-100px;">
+      <p><span style="margin-left: 30px;font-size: 20px;"><b>Fashion for Travel Lovers</b></span>
+         <button style="background-color: blue;margin-left:900px;border-radius: 6px;height:35px"><span style="color: cornsilk;">View All</span></button>
+      <hr>
+      <div class="container">
+         <div class="row">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="2" id="MultiCarousel"  data-interval="1000">
+               <div class="MultiCarousel-inner">
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/flap/150/150/image/1b05bc.jpg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Casio, Titan & more</b></p>
+                        <p style="color: green;font-size:13px;">Upto%Off <a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size:12px">+Extra5%Off</span></a></p>
+                        <p style="font-size: 13px;">Watches Veriety</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jn0msnk0/sandal/e/y/t/ogd-2688117-42-woodland-olive-green-original-imaf9s7dtqccb9gu.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Woodland</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jn0msnk0/sandal/e/y/t/ogd-2688117-42-woodland-olive-green-original-imaf9s7dtqccb9gu.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Bean Bag Covers & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">199</span></a></p>
+                        <p style="font-size: 13px;">space saving Furniture</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jw5a2kw0/slipper-flip-flop/a/z/t/11007161-10-fila-wht-pea-original-imafgwkkgseybdkq.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Home Decor Range</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">67</span></a></p>
+                        <p style="font-size: 13px;">Sticker,wall clock & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/j687jbk0/kurta/7/x/e/l-ivk401-indian-virasat-original-imaewqyf6nytytgh.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Nokia Mobile & more</b></p>
+                        <p style="color: green;">Flat Rs<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">100 off</span></a></p>
+                        <p style="font-size: 13px;">Great deals on Feature</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/shoe/g/r/p/buff-alicante-grey-2531502802-u-s-polo-assn-9-original-imaehqrruhjjrtkq.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Top, Dress & more</b></p>
+                        <p style="color: green;">From<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">300</span></a></p>
+                        <p style="font-size: 13px;">Tokyo Talkies,Van House</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/shoe/7/e/b/tan-535-knot-n-lace-8-original-imaegkmczmymyabt.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Headphones & Speakers</b></p>
+                        <p style="color: green;font-size: 12px;">Upto 60%<a class="" style="color:green" href="#"><span style="color:green;margin-left: 4px;font-size: 12px">+Extra 10%off</span></a></p>
+                        <p style="font-size: 13px;">JBL,Sony & more</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="pad15">
+                        <img src="https://rukminim1.flixcart.com/image/150/150/jx3kn0w0/mobile/9/j/e/vivo-z1-pro-1951-pd1911f-ex-original-imafhmyaytjannkv.jpeg?q=70"style="height:120px;">
+                        <p style="font-size: 12px;color: black;"><b>Lee,Levies,spark</b></p>
+                        <p style="color: green;">Min 60%<a class="fa fa-inr" style="color:green" href="#"><span style="color:green;margin-left: 4px;">off</span></a></p>
+                        <p style="font-size: 13px;">T-shirts,Shirts,Jeans</p>
+                     </div>
+                  </div>
+               </div>
+               <button class="btn btn-primary leftLst"><</button>
+               <button class="btn btn-primary rightLst">></button>
+            </div>
+         </div>
+         <br><br><br><br><br>
+         <div class="container-fluid">
+            <div class="row"style="justify-content: space-around;">
+               <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://previews.123rf.com/images/andreypopov/andreypopov1701/andreypopov170101112/69612948-young-smiling-woman-using-washing-machine-to-clean-clothes-in-laundry-room.jpg" alt="Mister Marbles head tilt"></div>
+               <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6268/6268405_sd.jpg" alt="Mister Marbles head tilt"></div>
+               <div class="col-sm-4"><img style= "height: 225px;margin-top: -100px;" src="https://image.shutterstock.com/image-illustration/modern-side-by-stainless-steel-260nw-1080200909.jpg" alt="Mister Marbles head tilt"></div>
+            </div>
+         </div>
+      </div>
+      <br><br><br>
+      <div class="one">
+         <h1 style="font-size:15px;">Top Stories:<b>Brand Directory</b></h1>
+         <p style="font-size: 12px;">MOST SEARCHED FOR ON FLIPKART:Nokia 55 Inch | TVRealme X2 PROGoogle Nest MiniWorld TV DayNoise Colorfit
+            Pro 2 SmartwatchRedmi 8Honor 20iOPPO K1Realme 5Realme 5 ProFlipkart Axis Bank<br> Credit CardRedmi K20Redmi K20 ProAir PurifiersRealme 3iRealme XPhantom 9Redmi 7ARedmi Note 7SEarringsMens WatchesBanglesNecklaceChildren's
+            Day OffersSilver JewelleryRingsJewelleryWatchesMangalsutraSanta Claus Dress
+         </p>
+         <p >MOBILES:Realme 5Infinix Hot 8iPhone 11iPhone 11 ProiPhone 11 Pro MaxMobile Offersiphone xiphone 8iphone 7iphone 6Redmi 5A4G MobileNokia MobileSamsung MobileiphoneOppo MobileVivo Mobile</p>
+         <p>CAMERA:GoPro Action CameraNikon CameraCanon CameraSony CameraCanon DSLRNikon DSLR</p>
+         <p  style="font-size:10px;">LAPTOPS:Microsoft Surface Go Pentium Gold 64GBMicrosoft Surface Go Pentium 128GBBranded LaptopsApple LaptopsAcer LaptopsLenovo LaptopsDell LaptopsAsus LaptopsHP LaptopsGaming Laptops2 in 1 LaptopsBusiness Laptops</p>
+         <p  style="font-size:10px;">TVS:MI 43 Inch 4K TVMI 40 Inch TVMi 65 Inch TVSamsung 32 Smart TVTVSony TVSamsung TVMi 49 Inch Smart TVAndroid TelevisionIffalcon TvMi TV</p>
+         <p  style="font-size:10px;">LARGE APPLIANCES:Cooling Day StoreLG Washing MachinesBosch Washing MachinesLG RefrigeratorsSamsung Refrigerators</p>
+         <p  style="font-size:10px;">CLOTHING:Men ShirtsMen T-ShirtsMen SuitsMen TrousersMens BlazersSareesDressesMidi SkirtsSkirtsDesigner Salwar SuitsBraSweatersJacketsSweatshirtsCardigansThermalsEthnic WearW KurtisFormal ShirtsDesigner KurtisDupattaCardigansParty DressesPalazzo SuitsNightgownsFormal Wear For MenMaxi DressesMidi DressAnarkaliIndo Western DressCocktail DressesCasual DressesBaby ClothesShapewearsLeggingsDisney Frozen SaleChinosSherwaniBarbie DressesGirls ClothesSalwar SuitsTopsLehengaDress MaterialsScarfLeather JacketsDenim JacketsKurtisDesigner SareesKids ClothingScarvesInnerwearShorts</p>
+         <p  style="font-size:10px;">FOOTWEAR:ShoesAdidas ShoesReebok ShoesNike ShoesDC ShoesPuma ShoesBootsBata ShoesWoodland ShoesSkechers ShoesParty ShoesSneakersClogsWomens BootsSports ShoesLoafersCasual ShoesUnder Armour ShoesWomens Skechers ShoesRainy FootwearMonsoon FootwearMi ShoesFormal Shoes</p>
+         <p  style="font-size:10px;">GROCERIES:PhonePe Grocery VoucherSugar Jaggery SaltsRiceMasala & SpicesDals PulsesAttaCookiesNoodlesGheeDry FruitsToor DalOlive OilSunflower OilJuices |View All</p>
+         <p  style="font-size:10px;">BEST SELLING ON FLIPKART:BooksToy StoreFestive DecorDiyasGift SetsCricket BatsCandlesHelmetsFiction BooksWall ClocksTreadmillsNail PolishRangoli PowderBaby FoodKajalLiterature BooksNotepadsE BikesChocolatesBoard GamesGym BagsCyclesCalculatorsLipsticksFace Wash</p>
+         <p  style="font-size:10px;">FURNITURE:FurnitureSofasBedsDining setsWardrobesMattressesTV UnitsTablesChairsShelvesBean BagsRed SofaWhite SofaGreen SofaBlack SofaBrown Sofa</p>
+         <br><br>
+         <h1 style="font-size:15px;"><b>Flipkart: The One-stop Shopping Destination</b></h1>
+         <p  style="font-size:10px;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to
+            another in search of the latest phone when you can find it on the Internet in a single click? Not
+            only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like 
+            laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, 
+            clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes
+            to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and
+            other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses
+            and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can 
+            stay assured about finding them all here. For those of you with erratic working hours, Flipkart is
+            your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never
+            shuts down.
+         </p>
+         <p  style="font-size:10px;">What's more, with our year-round shopping festivals and events, our prices are irresistible. 
+            We're sure you'll find yourself picking up more than what you had in mind. If you are wondering 
+            why you should shop from Flipkart when there are multiple options available to you, well, 
+            the below will answer your question.
+         </p>
+         <br><br>
+         <h1 style="font-size:15px;"><b>Flipkart Plus</b></h1>
+         <P  style="font-size:10px;">A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a
+            loyalty reward programme for all its regular customers at zero subscription fee.
+            All you need is 500 supercoins to be a part of this service. For every 100 rupees
+            spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 
+            supercoins. Free delivery, early access during sales and shopping festivals, exchange
+            offers and priority customer service are the top benefits to a Flipkart Plus member.
+            In short, earn more when you shop more!
+         </P>
+         <p  style="font-size:10px;">What's more, you can even use the Flipkart supercoins for a number of exciting services, like:<br>
+            An annual Zomato Gold membership<br>
+            An annual Hotstar Premium membership<br>
+            6 months Gaana plus subscription<br>
+            Rupees 550 instant discount on flights on ixigo<br>
+            Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.
+         </p>
+         <h1 style="font-size:15px;"><b>No Cost EMI</b></h1>
+         <p  style="font-size:10px;">In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time,
+            chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.
+         </p>
+         <h1 style="font-size:15px;"><b>EMI on Debit Cards</b></h1>
+         <p  style="font-size:10px;">Did you know debit card holders account for 79.38 crore in the country,
+            while there are only 3.14 crore credit card holders? After enabling EMI
+            on Credit Cards, in another attempt to make online shopping accessible
+            to everyone, Flipkart introduces EMI on Debit Cards, empowering you to
+            shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.
+         </p>
+         <h1 style="font-size:15px;"><b>Mobile Exchange Offers</b></h1>
+         <p  style="font-size:10px;">Get an instant discount on the phone that you have been eyeing on.
+            Exchange your old mobile for a new one after the Flipkart experts
+            calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.
+         </p>
+         <h2>What Can You Buy From Flipkart?</h2>
+         <h1>mobile Phones</h1>
+         <p  style="font-size:10px;">From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you
+            to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers
+            a comprehensive range of post-purchase problems, with door-to-door services.
+         </p>
+         <h1 style="font-size:15px;"><b>Electronic Devices and Accessories</b></h1>
+         <p  style="font-size:10px;">When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler.
+            Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store.
+            Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+            How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation.
+         </p>
+         <h1 style="font-size:15px;"><b>Large Appliances</b></h1>
+         <p  style="font-size:10px;">Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.</p>
+         <h1 style="font-size:15px;"><b>Small Home Appliances</b></h1>
+         <P  style="font-size:10px;">Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.
+         </P>
+         <h1 style="font-size:15px;"><b>LifeStyle</b></h1>
+         <P  style="font-size:10px;">Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and
+            everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter
+            clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.
+         </P>
+         <h1 style="font-size:15px;"><b>Home and Furniture</b></h1>
+         <p  style="font-size:10px;"> Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets,
+            dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds
+            of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture 
+            will stand the test of time? These are questions you must ask before you choose a store. Well, 
+            our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes.
+         </p>
+         <br>
+         <p  style="font-size:10px;">You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart.
+         </p>
+         <h1 style="font-size:15px;"><b>Baby & Kids</b></h1>
+         <p  style="font-size:10px;">Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.</p>
+         <h1 style="font-size:15px;"><b>Books Sports and Games</b></h1>
+         <p  style="font-size:10px;">Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.</p>
+         <h1 style="font-size:15px;"><b>Grocery/Supermart</b></h1>
+         <p style="font-size:10px;">Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents 
+            new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.
+         </p>
+      </div>
+      <br>
+      <div class="two">
+      <div class="container">
+      <br>
+      <div class="main-link"><b style="color: blue;font-size:12px">About</b></div>
+      <div><a href="/blog-against-fraud" style="color:white;font-size:12px">Contact Us</a></div>
+      <div><a href="/events" style="color:white;font-size:12px">About Us</a></div>
+      <div><a href="/fraud-prevention-resources/videos"style="color:white;font-size:12px">Careers</a></div>
+      <div><a href="/fraud-prevention-resources/ebooks"style="color:white;font-size:12px">Filpkart Stories</a></div>
+      <div><a href="/fraud-prevention-resources/white-papers" style="color:white;font-size:12px">Press</a></div>
+      <div class="container2">
+      <div class="main-link"><b style="color: blue;font-size:12px">Help</div>
+      <div><a href="/pricing"style="color:white;font-size:12px">Payments</a></div>
+      <div><a href="/how-fraud-prevention-works/machine-learning"style="color:white;font-size:12px">Cancelation and Returns</a></div>
+      <div><a href="/use-cases"style="color:white;font-size:12px">Shipping</a></div>
+      <div><a href="/payments-and-fraud-glossary"style="color:white;font-size:12px">FAQ</a></div>
+      <div><a href="https://portal.kount.net/login" style="color:white;font-size:12px"target="_blank">Report and Infrigment</a></div>
+      <div>
+      <div class="container3">
+      <div class="main-link"><b style="color: blue;font-size:12px">Policy</div>
+      <div><a href="/blog-against-fraud" style="color:white;font-size:12px">Return Policy</a></div>
+      <div><a href="/how-fraud-prevention-works/machine-learning"style="color:white;font-size:12px">Terms of use</a></div>
+      <div><a href="/use-cases"style="color:white;font-size:12px">Security</a></div>
+      <div><a href="/payments-and-fraud-glossary"style="color:white;font-size:12px">privecy</a></div>
+      <div><a href="https://portal.kount.net/login" style="color:white;font-size:12px"target="_blank">Sitemap</a></div>
+      <div><a href="/use-cases"style="color:white;font-size:12px">ERP Compliance</a></div>
+      <div>
+         <div class="container4">
+            <div class="main-link"><b style="color: blue;font-size:12px">Social</div>
+            <div><a href="/blog-against-fraud" style="color:white;font-size:12px">Facebook</a></div>
+            <div><a href="/how-fraud-prevention-works/machine-learning"style="color:white;font-size:12px">Twitter</a></div>
+            <div><a href="/use-cases"style="color:white;font-size:12px">Youtube</a></div>
+            <div>       
+            </div>
+            <div class="vl"></div>
+            <div class="container5">
+               <P style="color: blue;font-size:12px">Mail Us:</p>
+               <p style="color: aliceblue;font-size: 12px;">Flipkart Internet Private Limited,<br>
+                  Buildings Alyssa, Begonia &<br>
+                  Clove Embassy Tech Village,<br>
+                  Outer Ring Road, Devarabeesanahalli Village,<br>
+                  Bengaluru, 560103,<br>
+                  Karnataka, India.
+               </p>
+            </div>
+            <div class="container6">
+               <h1 style="font-size: 12px;color: blue;">Registered Office Address:</h1>
+               <p>
+                  Flipkart Internet Private Limited,<br>
+                  Buildings Alyssa, Begonia &<br>
+                  Clove Embassy Tech Village,<br>
+                  Outer Ring Road, Devarabeesanahalli Village,<br>
+                  Bengaluru, 560103,<br>
+                  Karnataka, India<br>
+                  CIN : U51109KA2012PTC066107<br>
+                  Telephone:
+                  <pan style="color:blue">1800 208 9898</pan>
+               </p>
+            </div>
+            <hr style="color: crimson;">
+            <div class="container7">
+               <div class="fa fa-shopping-bag"style="color:yellow"><span style="color:white;margin-left: 3px;">Sell on Filpcard</span></div>
+            </div>
+            <div class="container8">
+               <div class="fa fa-star"style="color:yellow"><span style="color:white;margin-left: 3px;">Advertise</span></div>
+            </div>
+            <div class="container9">
+               <div class="fa fa-gift"style="color:yellow"><span style="color:white;margin-left: 3px;">Gift Cards</span></div>
+            </div>
+            <div class="container10">
+               <div class="fa fa-question-circle"style="color:yellow"><span style="color:white;margin-left: 3px;">Help Center</span></div>
+            </div>
+            <div class="container11">
+               <div class="number"style="color:yellow"><span style="color:white;margin-left: 3px;">© 2007-2019 Flipkart.com.
+                  </span>
+               </div>
+            </div>
+            <div class="row"style="margin-left:250px;margin-top:-12px">
+               <img style= "height: 15px;" src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_2dd397.svg" alt="Mister Marbles head tilt">
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
